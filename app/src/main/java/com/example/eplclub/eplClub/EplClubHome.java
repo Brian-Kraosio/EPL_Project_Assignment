@@ -196,7 +196,7 @@ public class EplClubHome extends Fragment {
         mancity.add(new Players("Raheem Sterling", "Forward", "7"));
         mancity.add(new Players("Riyad Mahrez", "Forward", "26"));
         mancity.add(new Players("Sergio Aguero", "Forward", "10"));
-        eplClubList.add(new EplClubModel("Manchester City", mancity, R.drawable.mancity));
+        eplClubList.add(new EplClubModel("Manchester City", mancity, R.drawable.mancity1));
 
 
 //
@@ -233,6 +233,7 @@ public class EplClubHome extends Fragment {
                 adapter.setEplClubModels(eplClubModels);
             }
         });
+
 
         viewModel.Navigatedetail().observe(getViewLifecycleOwner(), new Observer<EplClubModel>() {
             @Override
