@@ -80,10 +80,114 @@ public class EplClubHome extends Fragment {
         ars.add(new Players("Dani Ceballos", "Forward", "8"));
         eplClubList.add(new EplClubModel("Arsenal", ars, R.drawable.arsenal));
 
+//      Aston Villa
+        List<Players> astnv = new ArrayList<>();
+        astnv.add(new Players("Emiliano Martinez", "GoalKeeper", "26"));
+        astnv.add(new Players("Tom Heaton", "GoalKeeper", "1"));
+        astnv.add(new Players("Ezri Konsa Ngoyo", "Defender", "4"));
+        astnv.add(new Players("Matt Targett", "Defender", "18"));
+        astnv.add(new Players("Matthew Cash", "Defender", "2"));
+        astnv.add(new Players("John McGinn", "Midfielder", "7"));
+        astnv.add(new Players("Jack Grealish", "Midfielder", "10"));
+        astnv.add(new Players("Conor Hourihane", "Midfielder", "14"));
+        astnv.add(new Players("Ollie Watkins", "Forward", "11"));
+        astnv.add(new Players("Bertrand Traore", "Forward", "15"));
+        astnv.add(new Players("Keinan Davis", "Forward", "39"));
 
+//      Chelsea
+        List<Players> chls = new ArrayList<>();
+         chls.add(new Players("Edouard Mendy", "GoalKeeper", "16"));
+         chls.add(new Players("Willy Caballero", "GoalKeeper", "13"));
+         chls.add(new Players("Kurt Zouma", "Defender", "15"));
+         chls.add(new Players("Reece James", "Defender", "24"));
+        chls.add(new Players("Thiago Silva", "Defender", "6"));
+        chls.add(new Players("Mason Mount", "Midfielder", "19"));
+        chls.add(new Players("N'Golo Kante", "Midfielder", "7"));
+        chls.add(new Players("Mateo Kovacic", "Midfielder", "17"));
+        chls.add(new Players("Timo Werner", "Forward", "11"));
+        chls.add(new Players("Tammy Abraham", "Forward", "9"));
+        chls.add(new Players("Oliver Giroud", "Forward", "18"));
 
+//        Crystal Palace
+        List<Players> crysp = new ArrayList<>();
+        crysp.add(new Players("Vicente Guaita", "GoalKeeper", "31"));
+        crysp.add(new Players("Jack Butlan","GoalKeeper", "1"));
+        crysp.add(new Players("Joel Ward", "Defender", "2"));
+        crysp.add(new Players("Scorr Dann", "Defender", "6"));
+        crysp.add(new Players("Mamadou Sakho", "Defender", "12"));
+        crysp.add(new Players("Andros Townsend", "Midfielder", "10"));
+        crysp.add(new Players("Cheikhou Kouyate", "Midfielder", "8"));
+        crysp.add(new Players("Eberechi Eze", "Midfielder", "25"));
+        crysp.add(new Players("Wildfried Zaha", "Forward", "11"));
+        crysp.add(new Players("Jordan Ayew", "Forward", "9"));
+        crysp.add(new Players("Michy Batshuayi", "Forward", "23"));
 
+//      Everton
+        List<Players> everton = new ArrayList<>();
+        everton.add(new Players("Jardon Pickford", "GoalKeeper", "1"));
+        everton.add(new Players("Robin Olsen", "Goalkeeper", "33"));
+        everton.add(new Players("Michael Keane", "Defender", "5"));
+        everton.add(new Players("Yerry Mina", "Defender", "13"));
+        everton.add(new Players("Seamus Coleman", "Defender", "23"));
+        everton.add(new Players("Allan", "Midfielder", "6"));
+        everton.add(new Players("James Rodriguez", "Midfielder", "19"));
+        everton.add(new Players("Tom Davies", "Midfielder", "26"));
 
+//       FullHam
+        List<Players> fullham = new ArrayList<>();
+        everton.add(new Players("Marek Rodak", "Goalkeeper", "12"));
+        everton.add(new Players("Alpshone Areola", "Goalkeeper", "1"));
+        everton.add(new Players("Antonee Robinson", "Defender", "33"));
+        everton.add(new Players("Ola Aina", "Defender", "34"));
+        everton.add(new Players("Joe Bryan", "Defender", "23"));
+        everton.add(new Players("Tom Cairney", "Midfielder", "10"));
+        everton.add(new Players("Harrison Reed", "Midfielder", "21"));
+        everton.add(new Players("Andre-Frank Zambo Anguissa", "Midfielder", "29"));
+        everton.add(new Players("Bobby De Cordova-Reid", "Forward", "14"));
+        everton.add(new Players("Ivan Cavaleiro", "Forward", "17"));
+        everton.add(new Players("Ademola Lookman", "Forward", "19"));
+
+//      Leichester City
+        List<Players> leicester = new ArrayList<>();
+        leicester.add(new Players("Kasper Schmeichel", "Goalkeeper", "1"));
+        leicester.add(new Players("Danny Ward", "Goalkeeper", "12"));
+        leicester.add(new Players("James Justin", "Defender", "2"));
+        leicester.add(new Players("Jonny Evans", "Defender", "6"));
+        leicester.add(new Players("Timothy Castagne", "Defender", "27"));
+        leicester.add(new Players("James Maddison", "Midfielder", "10"));
+        leicester.add(new Players("Harvey Barnes", "Midfielder", "15"));
+        leicester.add(new Players("Dennis Praet", "Midfielder", "26"));
+        leicester.add(new Players("Jamie Vardy", "Forward", "9"));
+        leicester.add(new Players("Kelechi Iheanacho", "Forward", "14"));
+        leicester.add(new Players("Ayoze Perez", "Forward", "17"));
+
+//       Liverpool
+        List<Players> liverpool = new ArrayList<>();
+        liverpool.add(new Players("Alisson", "GoalKeeper", "1"));
+        liverpool.add(new Players("Adrian", "GoalKeeper", "13"));
+        liverpool.add(new Players("Virgil Van Dijk", "Defender", "4"));
+        liverpool.add(new Players("Andrew Robertson", "Defender", "26"));
+        liverpool.add(new Players("Trent Alexander-Arnold", "Defender", "66"));
+        liverpool.add(new Players("Georginio Wijnaldum", "Midfielder", "5"));
+        liverpool.add(new Players("Jordan Henderson", "Midfielder", "14"));
+        liverpool.add(new Players("Naby Keita", "Midfielder", "8"));
+        liverpool.add(new Players("Roberto Firmino", "Forward", "9"));
+        liverpool.add(new Players("Sadio Mane", "Forward", "10"));
+        liverpool.add(new Players("Mohammed Salah", "Forward", "11"));
+
+//      Man City
+        List<Players> mancity = new ArrayList<>();
+        mancity.add(new Players("Ederson", "GoalKeeper", "31"));
+        mancity.add(new Players("James Trafford", "GoalKeeper", "85"));
+        mancity.add(new Players("Kyle Walker", "Defender", "2"));
+        mancity.add(new Players("Nathan Ake", "Defender", "6"));
+        mancity.add(new Players("Ruben Dias", "Defender", "3"));
+        mancity.add(new Players("Kevin De Bryune", "Midfielder", "17"));
+        mancity.add(new Players("Phil Foden", "Midfielder", "47"));
+        mancity.add(new Players("Rodrigo", "Midfielder", "16"));
+        mancity.add(new Players("Raheem Sterling", "Forward", "7"));
+        mancity.add(new Players("Riyad Mahrez", "Forward", "26"));
+        mancity.add(new Players("Sergio Aguero", "Forward", "10"));
 
 //
 
