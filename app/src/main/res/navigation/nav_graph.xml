@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/eplClubHome">
 
+    <fragment
+        android:id="@+id/eplClubHome"
+        android:name="com.example.eplclub.eplClub.EplClubHome"
+        android:label="fragment_epl_club_home">
+        <action
+            android:id="@+id/action_eplClubHome_to_details"
+            app:destination="@id/details" />
+    </fragment>
+    <fragment
+        android:id="@+id/details"
+        android:name="com.example.eplclub.eplClubDetails.Details"
+        android:label="fragment_details">
+        <argument
+            android:name="team"
+            app:argType="com.example.eplclub.model.EplClubModel" />
+    </fragment>
 </navigation>
