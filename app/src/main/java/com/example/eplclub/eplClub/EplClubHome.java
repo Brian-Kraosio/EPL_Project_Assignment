@@ -93,6 +93,7 @@ public class EplClubHome extends Fragment {
         astnv.add(new Players("Ollie Watkins", "Forward", "11"));
         astnv.add(new Players("Bertrand Traore", "Forward", "15"));
         astnv.add(new Players("Keinan Davis", "Forward", "39"));
+        eplClubList.add(new EplClubModel("Aston Villa", astnv, R.drawable.aston_villa));
 
 //      Chelsea
         List<Players> chls = new ArrayList<>();
@@ -107,6 +108,7 @@ public class EplClubHome extends Fragment {
         chls.add(new Players("Timo Werner", "Forward", "11"));
         chls.add(new Players("Tammy Abraham", "Forward", "9"));
         chls.add(new Players("Oliver Giroud", "Forward", "18"));
+        eplClubList.add(new EplClubModel("Chelsea", chls, R.drawable.chelsea));
 
 //        Crystal Palace
         List<Players> crysp = new ArrayList<>();
@@ -121,6 +123,7 @@ public class EplClubHome extends Fragment {
         crysp.add(new Players("Wildfried Zaha", "Forward", "11"));
         crysp.add(new Players("Jordan Ayew", "Forward", "9"));
         crysp.add(new Players("Michy Batshuayi", "Forward", "23"));
+        eplClubList.add(new EplClubModel("Crystal Palace", crysp, R.drawable.crystal_palace));
 
 //      Everton
         List<Players> everton = new ArrayList<>();
@@ -132,6 +135,7 @@ public class EplClubHome extends Fragment {
         everton.add(new Players("Allan", "Midfielder", "6"));
         everton.add(new Players("James Rodriguez", "Midfielder", "19"));
         everton.add(new Players("Tom Davies", "Midfielder", "26"));
+        eplClubList.add(new EplClubModel("Everton", everton, R.drawable.everton));
 
 //       FullHam
         List<Players> fullham = new ArrayList<>();
@@ -146,6 +150,7 @@ public class EplClubHome extends Fragment {
         everton.add(new Players("Bobby De Cordova-Reid", "Forward", "14"));
         everton.add(new Players("Ivan Cavaleiro", "Forward", "17"));
         everton.add(new Players("Ademola Lookman", "Forward", "19"));
+        eplClubList.add(new EplClubModel("Fullham", fullham, R.drawable.fulham));
 
 //      Leichester City
         List<Players> leicester = new ArrayList<>();
@@ -160,6 +165,7 @@ public class EplClubHome extends Fragment {
         leicester.add(new Players("Jamie Vardy", "Forward", "9"));
         leicester.add(new Players("Kelechi Iheanacho", "Forward", "14"));
         leicester.add(new Players("Ayoze Perez", "Forward", "17"));
+        eplClubList.add(new EplClubModel("Leicester City", leicester, R.drawable.leichester));
 
 //       Liverpool
         List<Players> liverpool = new ArrayList<>();
@@ -174,6 +180,8 @@ public class EplClubHome extends Fragment {
         liverpool.add(new Players("Roberto Firmino", "Forward", "9"));
         liverpool.add(new Players("Sadio Mane", "Forward", "10"));
         liverpool.add(new Players("Mohammed Salah", "Forward", "11"));
+        eplClubList.add(new EplClubModel("Liverpool", liverpool, R.drawable.liverpool));
+
 
 //      Man City
         List<Players> mancity = new ArrayList<>();
@@ -188,6 +196,8 @@ public class EplClubHome extends Fragment {
         mancity.add(new Players("Raheem Sterling", "Forward", "7"));
         mancity.add(new Players("Riyad Mahrez", "Forward", "26"));
         mancity.add(new Players("Sergio Aguero", "Forward", "10"));
+        eplClubList.add(new EplClubModel("Manchester City", mancity, R.drawable.mancity));
+
 
 //
 
